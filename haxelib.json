@@ -1,0 +1,12 @@
+{
+    "name": "lambdaplus",
+    "url" : "https://github.com/cbeo/lambdaplus/",
+    "license": "MIT",
+    "tags":  ["data structures"],
+    "description": "Extra data structures with functional interfaces.",
+    "version": "0.0.1",
+    "classPath": "src",
+    "releasenote": "alpha",
+    "contributors": ["Colin Okay"],
+    "dependencies": { }
+}
