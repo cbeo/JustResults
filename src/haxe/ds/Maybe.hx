@@ -15,7 +15,7 @@ class MaybeUtil {
 	};
     }
     
-    public static function isNonthing<T>(o:Maybe<T>): Bool {
+    public static function isNothing<T>(o:Maybe<T>): Bool {
 	return !o.isJust();
     }
 
