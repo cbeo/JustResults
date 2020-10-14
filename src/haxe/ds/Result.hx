@@ -47,6 +47,12 @@ class ResultExtensions
     }
     return result;
   }
+
+  public static function fromNull<E,T>(o:Null<T>, error:E) : Result<E,T>
+  {
+    if (o == null) return Err(error);
+    return Ok(o);
+  }
   
   public static function map<E,T,U>(result: Result<E,T>,
                                     fn: (val:T) -> U
