@@ -1,7 +1,7 @@
 {
     "name": "lambdaplus",
     "url" : "https://github.com/cbeo/lambdaplus/",
-    "license": "MIT",
+    "license": "Unlicense",
     "tags":  ["data structures"],
     "description": "Extra data structures with functional interfaces.",
     "version": "0.0.1",
