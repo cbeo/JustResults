@@ -1,9 +1,9 @@
 {
-    "name": "lambdaplus",
-    "url" : "https://github.com/cbeo/lambdaplus/",
+    "name": "justresults",
+    "url" : "https://github.com/cbeo/justresults/",
     "license": "Unlicense",
     "tags":  ["data structures"],
-    "description": "Extra data structures with functional interfaces.",
+    "description": "Maybe and Result types with functional interfaces.",
     "version": "0.0.1",
     "classPath": "src",
     "releasenote": "alpha",
