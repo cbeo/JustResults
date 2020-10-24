@@ -75,6 +75,12 @@ class ResultExtensions
     return Ok(res);
   }
 
+  public static function resultSeq<E,T,U>
+  (ts: Array<T>, fn: (t:T) -> Result<E,U>): Result<E,U>
+  {
+    return resultMap(ts, fn).map( ary -> ary.pop() );
+  }
+  
   public static function fromMaybe<E,T>(m:Maybe<T>, e: E) : Result<E,T> {
     return switch (m) {
     case Just(t): Ok(t);

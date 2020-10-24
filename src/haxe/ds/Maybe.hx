@@ -89,5 +89,10 @@ class MaybeUtil {
       }
     return Just(res);
   }
+
+  public static function maybeSeq<T,U>(ts: Array<T>, fn: (t:T) -> Maybe<U>): Maybe<U>
+  {
+    return maybeMap(ts, fn).map( ary -> ary.pop() );
+  }
   
 }
